@@ -36,6 +36,7 @@ public class MemberService {
             .ifPresent( m -> {
                 throw new IllegalStateException("this user already exists.");
             });
+
     }
 
     /**
